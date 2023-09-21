@@ -21,6 +21,7 @@ import Chatbot from './SingleBook/Chatbot'
 import Otp from './SingleBook/Otp'
 import QRcode from './SingleBook/QRcode'
 import Realtimemail from './SingleBook/Realtimemail'
+import Rating from './SingleBook/Rating'
 
 
 
@@ -124,7 +125,7 @@ function Main() {
             <Route path='/category/using_the_activity_to_store_the_records' element={<Activitycontent1/>} />
             <Route path='/category/activity_validation' element={<Activitycontent2/>} />
             <Route path='/category/update_details' element={<Activitycontent3/>} />
-            <Route path='category/random_10_number_generation_code.' element={<Valiadtion1/>} />
+            <Route path='category/random_10_number_generation_code-' element={<Valiadtion1/>} />
             <Route path='category/visible_conditions:_by_access_groups' element={<Validation2/>} />
             <Route path='category/dob_by_age' element={<Validation3/>} />
             <Route path='category/user_id' element={<Validation4/>} />
@@ -150,6 +151,7 @@ function Main() {
             <Route path='/category/login_screen' element={<UIcontent2/>} />
             <Route path='/category/repeating_dynamic_layout' element={<UIcontent3/>} />
             <Route path='/category/realtime_email' element={<Realtimemail/>} />
+            <Route path='/category/rating' element={<Rating/>} />
             <Route path='/category/qr-code_generation' element={<QRcode/>} />
             <Route path='/category/chatbot' element={<Chatbot/>} />
             
