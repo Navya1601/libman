@@ -49,9 +49,13 @@ import Validation16 from './Notes/Pages/Validation16'
 import Validation17 from './Notes/Pages/Validation17'
 import Validation18 from './Notes/Pages/Validation18'
 import Validation19 from './Notes/Pages/Validation19'
+import Applicaton_Creation from './Notes/Pages/Application_Creation'
 import Pagination from './Cards/Pagination'
 import ToastComponent from './Modals/Toast'
 import About from './About/About'
+import Case_Management_CaseLifeCycle from './Notes/Pages/Case_Management_CaseLifeCycle'
+import Rule_Creation from './Notes/Pages/Rule_Creation'
+import Ruleset from './Notes/Pages/Ruleset'
 
 
 function Main() {
@@ -154,6 +158,10 @@ function Main() {
             <Route path='/category/rating' element={<Rating/>} />
             <Route path='/category/qr-code_generation' element={<QRcode/>} />
             <Route path='/category/chatbot' element={<Chatbot/>} />
+            <Route path='/notes/csa/creating-pega-application' element={<Applicaton_Creation/>}/>
+            <Route path='/notes/csa/case-management-and-case-life-cycle' element={<Case_Management_CaseLifeCycle/>}/>
+            <Route path='/notes/csa/rule-creation' element={<Rule_Creation/>}/>
+            <Route path='/notes/csa/rulesets' element={<Ruleset/>}/>
             
           </Routes>
           <Footer path={location.pathname}/>
