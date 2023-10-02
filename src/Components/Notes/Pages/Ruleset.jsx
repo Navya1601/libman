@@ -20,6 +20,7 @@ function Ruleset() {
             <Image src={v2} thumbnail className='stepsImage'/>
             <Image src={v3} thumbnail className='stepsImage'/>
             <Image src={v4} thumbnail className='stepsImage'/>
+            <Image src={v4} thumbnail className='stepsImage'/>
         </Container>
     </>
   )
